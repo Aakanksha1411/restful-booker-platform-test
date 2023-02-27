@@ -71,6 +71,7 @@ Jenkins needs to be setup on local if you do not already have that available.
 - Executed the war: java -jar jenkins .war -httpPort=8080
 - Open the jenkins dashboard :  http://localhost:8080/
 - Login/Register
+- HTML and GITHUB Plugin
 
 ### Steps
 
@@ -80,14 +81,14 @@ Following steps to be followed to run the restful booker suite on jenkins:
 
 2. Enter the Job name, select the Job type as Freestyle project, and click OK.
 
-3. Specified the git repo URL by selecting the Git radio button under the Source Code Management section. URL :          
+3. Specify the git repo URL by selecting the Git radio button under the Source Code Management section. URL :          
 https://github.com/Aakanksha1411/restful-booker-platform-test.git
 
-4. Add branches to build - */main
+4. Provide empty ie "**" to Add branches section
 
 5. Add the build command under build steps and since the project used for this is of type Maven,  select the "Invoke top- level Maven targets" option.
 
-6. Add index.html for reporting under Index page[s] of the Reports section.
+6. Install HTML Plugin for reports.After installing the plugin ,Add "reports" under HTML directory to archiveAdd and add " index.html "  under Index page[s] of the Reports section.
 
 7. Select the Maven version and enter the following maven command under Goals: test -PRegression -Dbrowser=chrome OR test -PRegression -Dbrowser=edge.
 
