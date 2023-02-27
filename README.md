@@ -54,7 +54,7 @@ The methods in the tests where the date needs to be changed:
 
 - TestClass: BookingRooms, Method: validRoomBooking(). Here
   - Change Date to some other Days in :List<String> dateList = Arrays.asList("28", "29");
-  - Change Month here: bookRoomDetails.selectDate("October", dateList); --> 
+  - Change Month here: bookRoomDetails.selectDate("October", dateList);
 		
 - Test Class: ErrorValidationBooking, Method:unavailableDate()
   - Change month/days here: bookRoomDetails.selectDate("April", Arrays.asList("13", "14"));
