@@ -25,9 +25,9 @@ The framework is developed in a way to make the code readable and reusable(For e
 
 ## Project layout
 
-- src\internal: Contains the Page Object Models. The is further categorized into base(common code) and the actual page objects.
+- src\internal: Contains the Page Object Models. The is further categorized into base(common utility) and the actual page objects.
 - src\resources: The properties file
-- src\test: The actual test cases. The is further categorized into base(common code) and the test cases for different features.
+- src\test: The actual test cases. The is further categorized into base(common utility) and the test cases for different features.
 - reports: This folder is the placeholder for the test case reports after execution via the TestNG framework. Note that it contains
 a pre saved report for reference. It will be overriden after run.
 - target: To hold the compiles classes after build.
