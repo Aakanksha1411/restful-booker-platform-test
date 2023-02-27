@@ -16,10 +16,10 @@ public class BookingRooms extends BaseTest
 	public void validRoomBooking() throws Exception {
 
 		String expectedMessage = "1 night(s) - £100";
-		List<String> dateList = Arrays.asList("22", "23");
+		List<String> dateList = Arrays.asList("11", "12");
 		
 		BookRoom bookRoomDetails = bookerPlatform.submitRoomBooking();
-		bookRoomDetails.selectDate("August", dateList);
+		bookRoomDetails.selectDate("March", dateList);
 		String actualMessage = bookRoomDetails.selectedDates();
 		Assert.assertTrue(actualMessage.equals(expectedMessage));
 
