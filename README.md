@@ -31,7 +31,7 @@ The framework is developed in a way to make the code readable and reusable(For e
 - reports: This folder is the placeholder for the test case reports after execution via the TestNG framework. Note that it contains
 a pre saved report for reference. It will be overriden after run.
 - target: To hold the compiles classes after build.
-- testsuite: Contains the TestNG suite configuration. Also, the test plan for the project is place @ testsuite/testplan/TestPlan_BookingPlatform.doc for reference.
+- testsuite: Contains the TestNG suite configuration. Also, the test plan for the project is placed @ testsuite/testplan/TestPlan_BookingPlatform.doc for reference.
 
 
 <br/>
